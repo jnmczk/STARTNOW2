@@ -4,7 +4,7 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 50px;
   font-weight: 400;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -46,7 +46,8 @@ a:hover {
 
 .title {
   text-align: center;
-  font-size: 50px;
+  font-size: 170px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .subtitle {
   text-align: center;
@@ -101,10 +102,10 @@ a:hover {
 // .affix.navbar-default {
 //   background: rgba(0, 0, 0, 0.8);
 // }
-// #hero-area {
-//   background: #34495e;
-//   color: #fff;
-// }
+ #hero-area {
+   background: #38edc0;
+   color: #fff;
+ }
 // #hero-area .btn {
 //   margin-right: 20px;
 // }
