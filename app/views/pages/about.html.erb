@@ -12,21 +12,15 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="thumbnail">
-                        <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/14955953_10202455122895857_4720710582512918774_n.jpg?oh=d4b8294e5336d8b3b4780a23de7b2753&oe=588DBB9B">
-                        <p><a href="#">See the team. Giovanni, David, Joanna, Manpreet (left to right)</a></p>
+                        <img src="http://www.petproductnews.com/puppies.jpeg">
+                        <p><a href="#">See the team.</a></p>
                     </div>
 
-                </div>
+
                 <div class="col-md-4">
                     <div class="thumbnail">
-                    <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/1044928_10201588717556265_7013929658822700952_n.jpg?oh=02a78e3e388d2fc897eb2db72f3bc859&oe=5894D999">
-                    <p> <a href = "https://arcane-shelf-86139.herokuapp.com" >The Team deployed their app using Heroku, see here</a> </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                    <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/1044928_10201588717556265_7013929658822700952_n.jpg?oh=02a78e3e388d2fc897eb2db72f3bc859&oe=5894D999">
-                    <p> <a href = "https://github.com/Collabotech/StartNow" >The team copped first place for most Innovative Idea at Collabohacks, See Github for StartNow </a> </p>
+                    <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png">
+                    <p> <a href = "https://github.com/jnmczk/STARTNOW2" >See our Github</a> </p>
                     </div>
                 </div>
             </div>
@@ -43,7 +37,7 @@
           <% if user_signed_in? %>
           <%= link_to 'See how others have done it', posts_path %></p>
             <% else %>
-            <p>  <%= link_to 'See how others have done itt', new_user_session_path %></p>
+            <p>  <%= link_to 'See how others have done it', new_user_session_path %></p>
               <!-- ink_to 'Post a new project', new_user_session_path %> -->
   		          <% end %>
 	      </div>
@@ -63,9 +57,9 @@
 			<p>Where Collaboration Begins. Why Start later when you can StartNow?</p>
 			<p>
          <% if user_signed_in? %>
-        <%= link_to 'See Many Postings', posts_path %></p>
+        <%= link_to 'See Posts', posts_path %></p>
         <% else %>
-          <%= link_to 'See Many Postings', new_user_session_path %>
+          <%= link_to 'See Posts', new_user_session_path %>
 		        <% end %>
         </p>
         <br>
@@ -75,13 +69,12 @@
  <div style="margin-left:25px;">
         <h4> Contact Us: </h4>
           <p>
-          Address : 8888 University Drive <br>
-          Tel #: 605-555-3795
+          collabotech@gmail.com
     	   </P>
 	</div>
 
   <br>
-     <div class="footer"> <h5 style="text-align:center;">Collabotech 2018 Inc. (c)</h5></div>
+     <div class="footer"> <h5 style="text-align:center;"></h5></div>
 
   </body>
 </html>
