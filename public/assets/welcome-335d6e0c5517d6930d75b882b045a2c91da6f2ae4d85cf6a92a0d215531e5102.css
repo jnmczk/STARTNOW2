@@ -1,0 +1,134 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+/* line 5, /home/ubuntu/workspace/app/assets/stylesheets/welcome.css.scss */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/*a {
+  color: #e74c3c;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+a:hover {
+  color: #e76c3c;
+}
+.row {
+  padding: 80px 0px;
+}
+.btn {
+  border: none;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  text-transform: uppercase;
+  border-radius: 0;
+} */
+/*.btn-common {
+  background: #3d566e;
+  color: #fff;
+}
+.btn-common:hover {
+  background: #e74c3c;
+  color: #fff;
+}*/
+/* line 50, /home/ubuntu/workspace/app/assets/stylesheets/welcome.css.scss */
+.title {
+  text-align: center;
+  font-size: 170px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* line 55, /home/ubuntu/workspace/app/assets/stylesheets/welcome.css.scss */
+.subtitle {
+  text-align: center;
+  font-weight: 100;
+  padding-bottom: 30px;
+  position: relative;
+  color: #bdc3c7;
+}
+
+/* line 64, /home/ubuntu/workspace/app/assets/stylesheets/welcome.css.scss */
+.hot-container p {
+  margin-top: 10px;
+}
+
+/* line 65, /home/ubuntu/workspace/app/assets/stylesheets/welcome.css.scss */
+a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* line 67, /home/ubuntu/workspace/app/assets/stylesheets/welcome.css.scss */
+.hot-container {
+  min-height: 100px;
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 74, /home/ubuntu/workspace/app/assets/stylesheets/welcome.css.scss */
+a.btn {
+  display: inline-block;
+  color: #666;
+  background-color: #eee;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom-width: 3px;
+}
+
+/* line 89, /home/ubuntu/workspace/app/assets/stylesheets/welcome.css.scss */
+a.btn:hover {
+  background-color: #e3e3e3;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 94, /home/ubuntu/workspace/app/assets/stylesheets/welcome.css.scss */
+a.btn:active {
+  background-color: #CCC;
+  border-color: rgba(0, 0, 0, 0.9);
+}
+
+/* buttons yo */
+/* line 101, /home/ubuntu/workspace/app/assets/stylesheets/welcome.css.scss */
+a.btn.btn-blue {
+  background-color: #699DB6;
+  border-color: rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  color: #FFF;
+}
+
+/* line 108, /home/ubuntu/workspace/app/assets/stylesheets/welcome.css.scss */
+a.btn.btn-blue:hover {
+  background-color: #4F87A2;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 113, /home/ubuntu/workspace/app/assets/stylesheets/welcome.css.scss */
+a.btn.btn-blue:active {
+  background-color: #3C677B;
+  border-color: rgba(0, 0, 0, 0.9);
+}
+
+/* line 164, /home/ubuntu/workspace/app/assets/stylesheets/welcome.css.scss */
+#hero-area {
+  background: #38edc0;
+  color: #fff;
+}
