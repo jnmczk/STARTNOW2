@@ -1,1 +1,1 @@
-StartNow starting fresh!
+StartNow starting fresh! View our progress here at: http://startnow2.herokuapp.com/

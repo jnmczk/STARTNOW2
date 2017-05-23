@@ -3,7 +3,7 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>WELCOME TO STARTNOW</title>
+  <title>STARTNOW</title>
   
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400|Open+Sans+Condensed:300|Roboto|Roboto+Condensed|Slabo+27px" rel="stylesheet">
 
@@ -59,19 +59,16 @@
     <div class="row">
       <div class="col-md-12">
         <h1 class="title">S T A R T N O W</h1>
-        <h2 class="subtitle">Why start later when you can <i><u>START NOW</u></i>!</h2>
-        <img class="col-md-6 col-sm-6 col-xs-12 animated fadeInLeft" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/14955953_10202455122895857_4720710582512918774_n.jpg?oh=d4b8294e5336d8b3b4780a23de7b2753&oe=588DBB9B" alt="">
-        <div class="col-md-6 col-sm-6 col-xs-12 animated fadeInRight delay-0-5">
-            <p>:)</p>
-            <button><%= link_to 'Register', new_user_registration_path %></button>
-            <button> <%= link_to 'Sign in', new_user_session_path %></button>
+        <h2 class="subtitle">Why start later when you can StartNow! </h2> </div>
+        
+        <div class = "hot-container">
+           <p><center><%= link_to 'Register', new_user_registration_path, :class => "btn btn-blue" %>
+            <%= link_to 'Sign in', new_user_session_path, :class => "btn btn-blue" %></p></center>
 
         </div>
+        
       </div>
     </div>
-
-</div>
-</div>
 </section>
 </body>
 </html>
