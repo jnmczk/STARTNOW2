@@ -5,7 +5,7 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 *.gem
 *.rbc
-/config/*
+/config/
 /coverage/
 /InstalledFiles
 /pkg/
